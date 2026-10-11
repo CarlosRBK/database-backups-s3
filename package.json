@@ -4,12 +4,13 @@
   "description": "Script to automatically backup one or multiple databases to AWS S3",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node --test"
   },
   "author": "Luke Liasi",
   "license": "MIT",
   "dependencies": {
-    "@aws-sdk/client-s3": "3.317.0",
+    "@aws-sdk/client-s3": "3.1149.0",
     "cron": "2.3.0",
     "dotenv": "^16.3.1"
   },
